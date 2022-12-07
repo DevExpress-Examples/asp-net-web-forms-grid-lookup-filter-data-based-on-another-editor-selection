@@ -1,6 +1,5 @@
 ﻿Imports System
-Imports DevExpress.Web.ASPxGridLookup
-Imports DevExpress.Web.ASPxGridView
+Imports DevExpress.Web
 Imports DevExpress.Data.Filtering
 
 Partial Public Class _Default
