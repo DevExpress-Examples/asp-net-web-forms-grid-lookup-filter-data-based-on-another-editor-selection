@@ -34,7 +34,7 @@ To send a callback to the server when the primary editor's selection changes, ha
 </dx:ASPxGridLookup>
 ```
 
-Handle the secondary editor's [CustomCallback](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView.CustomCallback) event. In the handler, define a filter expression to bind the secondary editor to a data source based on selected values of the primary editor.
+Handle the secondary editor's [CustomCallback](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView.CustomCallback) event. In the handler, define a filter expression to bind the secondary editor to a data source based on the selected values in the primary editor.
 
 ```cs
 public void gridView_CustomCallback(object sender, ASPxGridViewCustomCallbackEventArgs e) {
