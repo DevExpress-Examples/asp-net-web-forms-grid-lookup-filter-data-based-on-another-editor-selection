@@ -31,7 +31,7 @@ To send a callback to the server when the primary editor's selection changes, ha
 
 ```aspx
 <dx:ASPxGridLookup ID="glCategories" runat="server" ClientInstanceName="glCategories" SelectionMode="Multiple" ...>
-    <!-- ... --
+    <!-- ... -->
     <ClientSideEvents ValueChanged="function(s, e) {
         var grid = glProducts.GetGridView();
         grid.PerformCallback('ValueChanged');
